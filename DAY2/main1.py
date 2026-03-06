@@ -15,3 +15,4 @@ for i in range (1 ,100):
         count += 1
 print(i)  
 print(count)
+
