@@ -5,10 +5,7 @@ try:
   if (num%2==0):
     print("even number")
 
-  elif (num%2!=0):
-    print("odd number ")
-
   else:
-    print("other number")   
+    print("odd number")   
 except Exception as e:
   print("invalid literal",e)     
