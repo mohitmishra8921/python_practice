@@ -7,4 +7,4 @@ while num<0:
     reverse = 0*digit + digit
     # num+=1
 print(num)
-print(reverse)
+print(reverse) 
