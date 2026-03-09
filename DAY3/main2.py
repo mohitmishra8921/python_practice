@@ -1,10 +1,14 @@
-digit =0
-reverse = 0
-num = 1234
-while num<0:
-    num = num%10
-    digit = num
-    reverse = 0*digit + digit
-    # num+=1
-print(num)
-print(reverse) 
+try:
+ while True:
+  
+  num = int(input("Enter the number : "))
+  if num>0:
+     print("The number is positive")
+  elif num<0:
+    print("The number is negative")    
+  else:
+    print("The number is zero")
+except Exception as e :
+  print("undefined variable",e)
+
+
