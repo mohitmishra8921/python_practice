@@ -1,11 +1,11 @@
 try:
- while True:
-  num = int(input("Enter the number : "))
+   while True:
+    num = int(input("Enter the number : "))
 
-  if (num%2==0):
-    print("even number")
+    if (num%2==0):
+     print("even number")
 
-  else:
-    print("odd number")   
+    else:
+     print("odd number")   
 except Exception as e:
   print("invalid literal",e)     
