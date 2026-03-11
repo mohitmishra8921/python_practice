@@ -6,3 +6,10 @@ while num>0:
     reverse = reverse*10+last_digit
     num = num // 10
 print(reverse)    
+
+# The 3-step rule to remember
+# Every reverse-number program always does these three steps in a loop:
+# Get last digit → % 10
+# Add digit to reversed number → reverse * 10 + digit
+# Remove last digit from original number → // 10
+# If you remember this pattern, you’ll never get stuck on this problem again.
