@@ -17,7 +17,14 @@ while True:
         print("invalid literal")
 
 
-
+# 🧠 Important Lesson You Just Learned
+# Whenever we modify a variable inside a loop, we should store the original value.
+# Example problems where this happens:
+# Palindrome number
+# Armstrong number
+# Reverse number
+# Sum of digits
+# This pattern will appear many times in programming.
 
     
        
