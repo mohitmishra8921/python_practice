@@ -10,13 +10,16 @@ while True:
             elif(operator == "-"):   
                 print(f"The difference of num1 and num2 is : {num1-num2}") 
             elif(operator == "/"):
-                print(f"The quotient of num1 and num2 is : {num1/num2}")
+                if num2==0:
+                    print("Division by zero is not possible")
+                else:
+                    print(f"The quotient of num1 and num2 is : {num1/num2}") 
             elif(operator == "*"):
                 print(f"The product of num1 and num2 is : {num1*num2}") 
             else:
                 print("Plzz enter valid operator and operand")         
       except Exception as e :
-          print(e)
+          print("Invalid input")
                    
 
 
