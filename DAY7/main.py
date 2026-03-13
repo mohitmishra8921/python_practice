@@ -14,7 +14,7 @@ while True:
             elif(operator == "*"):
                 print(f"The product of num1 and num2 is : {num1*num2}") 
             else:
-                print("Plzz enter valid operator and operand")       
+                print("Plzz enter valid operator and operand")         
       except Exception as e :
           print(e)
                    
