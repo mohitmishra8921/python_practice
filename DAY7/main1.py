@@ -9,6 +9,7 @@ while True:
               print("Wrong guess ❌\n")      
               print("Try again\n")
        except Exception as e :
+           print("Enter only numbers\n")
                   
         
  
