@@ -1,5 +1,7 @@
+
 while True:
-      try:
+      try:  
+            print("Simple Calculator \n")
             num1 = int(input("Enter the first number : "))
             num2 = int(input("Enter the second number : "))
 
@@ -11,15 +13,17 @@ while True:
                 print(f"The difference of num1 and num2 is : {num1-num2}") 
             elif(operator == "/"):
                 if num2==0:
-                    print("Division by zero is not possible")
+                    print("Division by zero is not possible\n")
                 else:
                     print(f"The quotient of num1 and num2 is : {num1/num2}") 
             elif(operator == "*"):
                 print(f"The product of num1 and num2 is : {num1*num2}") 
             else:
-                print("Plzz enter valid operator and operand")         
+                print("Plzz enter valid operator and operand")  
+
       except Exception as e :
-          print("Invalid input")
+          print("Updated Calculator Code")
+
                    
 
 
