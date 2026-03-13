@@ -22,7 +22,7 @@ while True:
                 print("Plzz enter valid operator and operand")  
 
       except Exception as e :
-          print("Updated Calculator Code")
+          print("Updated Calculator Code\n")
 
                    
 
