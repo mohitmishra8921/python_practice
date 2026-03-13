@@ -19,10 +19,10 @@ while True:
             elif(operator == "*"):
                 print(f"The product of num1 and num2 is : {num1*num2}") 
             else:
-                print("Plzz enter valid operator and operand")  
+                print("Please enter a valid operator (+ - * /)")  
 
       except Exception as e :
-          print("Updated Calculator Code\n")
+          print("Please enter valid numbers\n")
 
                    
 
