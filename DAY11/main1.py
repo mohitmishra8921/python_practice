@@ -10,7 +10,7 @@ print("Original list:", list_of_numbers)
 
 new_list = []
 
-for num in range(len(list_of_numbers) - 1, -1, -1):
-    new_list.append(list_of_numbers[num])
+for i in range(len(list_of_numbers) - 1, -1, -1):
+    new_list.append(list_of_numbers[i])
 
 print("Reversed list:", new_list)
