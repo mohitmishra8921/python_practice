@@ -1,6 +1,5 @@
 
-while True:
-       
+while True:   
      words = input("Enter the word : \n")
      vowel = ("a","e","i","o","u","A","E","I","O","U")
      count_vowel = 0
