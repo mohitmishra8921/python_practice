@@ -1,6 +1,6 @@
-num = int(input("How many numbers you want to add in a list?\n"))
+nums = int(input("How many numbers you want to add in a list?\n"))
 list1 = []
-for num in range(num):
+for num in range(nums):
     numbers = int(input("Enter numbers:\n"))
     list1.append(numbers)
 print(list1)    
