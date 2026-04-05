@@ -2,7 +2,7 @@ list1 = []
 
 user_input = int(input("How many numbers you want to add in a list?\n"))
 
-for _ in range(user_input):
+for i in range(user_input):
     num = int(input("Enter the numbers:\n"))
     list1.append(num)
 
