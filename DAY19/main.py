@@ -2,14 +2,22 @@ list1 = []
 
 user_input = int(input("How many numbers you want to add in a list?\n"))
 
-for num in range(user_input):
-    enter_numbers = int(input("Enter the numbers:\n"))
-    list1.append(enter_numbers)
+for _ in range(user_input):
+    num = int(input("Enter the numbers:\n"))
+    list1.append(num)
 
 print("Original list:", list1)
-for i in list1:
-    if list1[i]<= list1[i+1]:
-        print("List is sorted")
-    else:
-        print("list is not sorted")
-        
+
+is_sorted = True
+prev = list1[0]
+
+for current in list1[1:]:
+    if current < prev:
+        is_sorted = False
+        break
+    prev = current
+
+if is_sorted:
+    print("List is sorted")
+else:
+    print("List is not sorted")
