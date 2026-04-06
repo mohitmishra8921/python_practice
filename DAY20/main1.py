@@ -1,4 +1,4 @@
-string1 = input("Enter the string you want: ").lower()#lower function is used here to maintain edge case of code
+string1 = input("Enter the string you want:\n").lower()#lower function is used here to maintain edge case of code
 vowels = ("a","e","i","o","u")
 count_vowels=0
 count_consonents=0
@@ -8,7 +8,6 @@ for ch in string1:
         if ch in vowels:
           count_vowels+=1
         else:
-           print("Neither vowels nor consonents")   
-
+           count_consonents+=1
 print("Number of vowels in given string:\n",count_vowels)  
 print("Number of consonents in given string:\n",count_consonents)   
