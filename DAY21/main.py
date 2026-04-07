@@ -1,4 +1,4 @@
-list1 = [5,10,15]
+list1 = [5,10,15,20]
 largest = 0
 second_largest = 0
 for i in list1:
