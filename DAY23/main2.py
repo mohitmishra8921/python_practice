@@ -1,14 +1,20 @@
-n = int(input())
-list1 =[] 
-winner = 0
-runner_up =0
-for n in input().split():#This is another way through which we can create list by input from user by prevent memory usage
-    list1.append(int(n))
-for n in list1: # It just like to find largest and second largest number in a list 
-    if n>winner:
+if __name__ == '__main__':#this helps in indention by default according to my logic
+ n = int(input())
+list1 = []
+
+for i in input().split():
+    list1.append(int(i))
+
+winner = float('-inf')#this is best way to observe largest or second largest in  a list
+runner_up = float('-inf')#This logic solve biggest edge case for this queestion pattern for every and each input we can get correct largest and second largest number in a list
+
+for num in list1:
+    if num > winner:
         runner_up = winner
-        winner = n
-    elif n>runner_up and n<winner:
-        runner_up = n 
+        winner = num
+    elif num > runner_up and num < winner:
+        runner_up = num
+
 print(runner_up)        
+                     
                      
