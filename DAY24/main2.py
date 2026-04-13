@@ -1,10 +1,8 @@
-string1 = "listen"
+string1 = "liisten"
 string2 = "silent"
-sorted(string1)
-sorted(string2)
-# print(sorted(string1))
-# print(sorted(string2))
-if sorted(string1)==sorted(string2):
-    print("Anagram")
+for ch in string1:
+    if  string1.count(ch)==string2.count(ch):
+        print("Anagram")
+        break
 else:
     print("Not A Anagram")
