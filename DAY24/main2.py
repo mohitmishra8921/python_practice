@@ -1,5 +1,5 @@
-string1 = "liissten"
-string2 = "sisilent"
+string1 = "listen"
+string2 = "silent"
 for ch in string1:
     if  string1.count(ch)!=string2.count(ch):
         print("Not A Anagram")
