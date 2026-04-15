@@ -7,7 +7,7 @@ for i in list1:
          second_smallest=smallest
          smallest= i
        
-    elif i>smallest:
+    elif i>smallest and i<second_smallest:
        second_smallest=i     
 print("Smallest element in the list is:\n",smallest)
 print("Second_smallest element in the list is:\n",second_smallest)
