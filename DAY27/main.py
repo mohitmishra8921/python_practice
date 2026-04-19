@@ -1,11 +1,15 @@
-number = int(input("Enter the number you want check is either armstrong or not:\n"))
-n= len(str(number))
-original_num= number
+number = int(input("Enter the number: "))
+
+n = len(str(number))        # number of digits
+original_num = number
 sum_number = 0
-for num in str(number):
-    sum_number+= int(num)**n
-print("Matched to original number:",sum_number)
-if sum_number!=original_num:
-    print("NOT A ARMSTRONG")
-else:
+
+# calculate sum of digits^n
+for digit in str(number):
+    sum_number += int(digit) ** n
+
+# final comparison (IMPORTANT: loop ke baad)
+if sum_number == original_num:
     print("ARMSTRONG")
+else:
+    print("NOT AN ARMSTRONG")
