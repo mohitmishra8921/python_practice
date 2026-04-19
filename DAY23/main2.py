@@ -1,5 +1,5 @@
 if __name__ == '__main__':#this helps in indention by default according to my logic
- n = int(input("Enter the numbers you want to add in a list:\n"))
+ n = (input("Enter the numbers you want to add in a list:\n"))
 list1 = []
 
 for i in input().split():
